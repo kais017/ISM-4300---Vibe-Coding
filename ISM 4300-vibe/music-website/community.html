@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SongScape - Community & Fun</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="quiz.html">Music Quiz</a>
+        <a href="community.html" class="active">Community & Fun</a>
+    </nav>
+    <main>
+        <h1>SongScape Community & Fun</h1>
+        <section id="trivia-section">
+            <h2>🎵 Music Trivia Quiz</h2>
+            <div id="trivia-quiz"></div>
+        </section>
+        <section id="timeline-section">
+            <h2>📅 Music Timeline</h2>
+            <div id="music-timeline"></div>
+        </section>
+        <section id="discussion-section">
+            <h2>💬 Discussions</h2>
+            <form id="discussion-form">
+                <input type="text" id="discussion-name" placeholder="Your Name" required>
+                <textarea id="discussion-message" placeholder="Share your thoughts..." required></textarea>
+                <button type="submit">Post</button>
+            </form>
+            <div id="discussion-list"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 SongScape</p>
+    </footer>
+    <script src="community.js"></script>
+</body>
+</html>
