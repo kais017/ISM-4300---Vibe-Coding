@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SongScape - Top 10 Hits</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="quiz.html">Music Quiz</a>
+        <a href="community.html">Community & Fun</a>
+    </nav>
+    <main>
+        <h1><span class="music-note">&#127925;</span> SongScape: Top 10 Hits of Today <span class="music-note">&#127925;</span></h1>
+        <section id="featured-artist-section">
+            <h2>🎤 Featured Artist</h2>
+            <div id="featured-artist"></div>
+        </section>
+        <section id="random-song-section">
+            <h2>🔀 Random Song Generator</h2>
+            <button id="random-song-btn">Generate Random Song</button>
+            <div id="random-song-result"></div>
+        </section>
+        <ol id="top-hits" class="interactive-list">
+            <!-- Top 10 hits will be loaded here by JavaScript -->
+        </ol>
+    </main>
+    <footer>
+        <p>&copy; 2026 SongScape</p>
+    </footer>
+    <script src="top10.js"></script>
+</body>
+</html>

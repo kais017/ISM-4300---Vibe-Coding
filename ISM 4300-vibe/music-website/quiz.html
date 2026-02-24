@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SongScape - Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="quiz.html" class="active">Music Quiz</a>
+        <a href="community.html">Community & Fun</a>
+    </nav>
+    <main>
+        <h1>Music Recommendation Quiz</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <label>What mood are you in?</label><br>
+                <select name="mood" required>
+                    <option value="happy">Happy</option>
+                    <option value="sad">Sad</option>
+                    <option value="energetic">Energetic</option>
+                    <option value="chill">Chill</option>
+                </select>
+            </div>
+            <div class="question">
+                <label>Which genre do you prefer?</label><br>
+                <select name="genre" required>
+                    <option value="pop">Pop</option>
+                    <option value="rock">Rock</option>
+                    <option value="hiphop">Hip-Hop</option>
+                    <option value="electronic">Electronic</option>
+                    <option value="country">Country</option>
+                </select>
+            </div>
+            <button type="submit">Get Recommendation</button>
+        </form>
+        <div id="recommendation"></div>
+    </main>
+    <footer>
+        <p>&copy; 2026 SongScape</p>
+    </footer>
+    <script src="quiz.js"></script>
+</body>
+</html>
